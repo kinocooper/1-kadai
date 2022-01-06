@@ -68,7 +68,7 @@ main {
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   main {
     width: 100%;
     display: block;
@@ -81,15 +81,5 @@ main {
 
   .step-box:last-child {
     margin: 0 auto;
-  }
-
-  .image {
-    height: 300px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .image {
-    height: 150px;
   }
 }
