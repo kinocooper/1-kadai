@@ -4,12 +4,9 @@
   box-sizing: border-box;
 }
 
-.top {
+header {
   width: 100%;
   height: 50px;
-}
-
-.orange {
   background-color: #ff9a4b;
 }
 
@@ -36,6 +33,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+  background-color: #ff9a4b;
 }
 
 .image {
@@ -59,10 +57,7 @@ main {
   margin-bottom: 5px;
 }
 
-.centence {
-}
-
-.bottom {
+footer {
   width: 100%;
   height: 50px;
   background-color: #aaaaaa;
